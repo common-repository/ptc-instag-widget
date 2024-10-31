@@ -1,0 +1,86 @@
+#insGram_widget {
+	position: relative;
+}
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+#insGram1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #517fa4;
+	background-color: #fff;
+	position: fixed;
+}
+#insGram2 {
+	overflow: hidden;
+	text-align: left;
+}
+#insGram1 img {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#insGram1 iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.bg > h2.top-style {
+	background: #517fa4;
+	border-radius: 5px;
+	color: #fff;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px !important;
+	padding: 15px 0!important;
+	text-align: center;
+	font-weight: normal;
+}
+.bg .submit {
+	text-align: center;
+	width: 520px;
+}
+.bg .submit .button-success {
+	background: #517fa4 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.bg th {
+	color: #517fa4;
+	font-size: 16px;
+}
+.bg h2 {
+	color: #517fa4;
+	font-size: 26px;
+}
+.bg .form-table input {
+	background: #fff;
+	border: 1px solid #517fa4;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.bg select {
+	border: 1px solid #517fa4;
+	border-radius: 3px;
+}
+#insGram_widget_display .open{display:block; visibility:visible;}
